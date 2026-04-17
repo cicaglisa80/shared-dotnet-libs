@@ -9,6 +9,7 @@
         <Description>Shared core utilities - learning package structure</Description>
         <Copyright>Copyright 2026 Milos Kirjakovic</Copyright>
         <PackageTags>shared;core;utilities;</PackageTags>
+        <PackageId>Milos.Shared.Core</PackageId>
         <!-- README -->
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/cicaglisa80/shared-dotnet-libs</RepositoryUrl>
