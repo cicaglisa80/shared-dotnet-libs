@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>0.4.0</Version>
+        <Authors>Milos Kirjakovic</Authors>
+        <Description>Shared core utilities - learning package structure</Description>
+        <Copyright>Copyright 2026 Milos Kirjakovic</Copyright>
+        <PackageTags>shared;core;utilities;</PackageTags>
+        <!-- README -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/cicaglisa80/shared-dotnet-libs</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <!-- Tell NuGet to include the file inside the package -->
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
