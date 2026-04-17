@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.4.0</Version>
+        <Version>0.4.1</Version>
         <Authors>Milos Kirjakovic</Authors>
         <Description>Shared core utilities - learning package structure</Description>
         <Copyright>Copyright 2026 Milos Kirjakovic</Copyright>
@@ -19,6 +19,9 @@
     <!-- Tell NuGet to include the file inside the package -->
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include=".github\workflows\publish.yml" />
     </ItemGroup>
 
 </Project>
