@@ -19,6 +19,8 @@
     <!-- Tell NuGet to include the file inside the package -->
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath="\" />
+        <None Remove="$(MSBuildProjectDirectory)\..\**\*.yml" />
+        <None Remove="$(MSBuildProjectDirectory)\..\**\*.yaml" />
     </ItemGroup>
     <ItemGroup>
       <Content Include=".github\workflows\publish.yml" />
