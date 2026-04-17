@@ -22,8 +22,4 @@
         <None Remove="$(MSBuildProjectDirectory)\..\**\*.yml" />
         <None Remove="$(MSBuildProjectDirectory)\..\**\*.yaml" />
     </ItemGroup>
-    <ItemGroup>
-      <Content Include=".github\workflows\publish.yml" />
-    </ItemGroup>
-
 </Project>
