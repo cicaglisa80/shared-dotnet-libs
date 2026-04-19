@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.5.0] - 2026-04-17
+### Added
+- README test pipeline
+
 ## [0.4.0] - 2026-04-17
 ### Added
 - README added github logic
